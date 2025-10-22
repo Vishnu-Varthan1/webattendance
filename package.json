@@ -1,0 +1,16 @@
+{
+  "bin": "main.go",
+  "name": "frontend",
+  "author": "vishnu",
+  "description": "tailwind",
+  "version": "1.0.0",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.9.3"
+  }
+}

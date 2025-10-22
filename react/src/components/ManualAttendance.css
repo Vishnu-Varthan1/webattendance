@@ -1,0 +1,36 @@
+.manual-attendance {
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.manual-attendance button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.manual-attendance button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.manual-attendance button:hover:not(:disabled) {
+  background-color: #45a049;
+}
+
+.success {
+  color: #4CAF50;
+  margin: 10px 0;
+}
+
+.error {
+  color: #f44336;
+  margin: 10px 0;
+}
