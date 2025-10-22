@@ -1,16 +1,25 @@
 {
-  "bin": "main.go",
-  "name": "frontend",
-  "author": "vishnu",
-  "description": "tailwind",
+  "name": "web-attendance-system",
   "version": "1.0.0",
-  "license": "UNLICENCED",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.13",
-    "tailwindcss": "^4.1.13"
+    "tailwindcss": "^4.1.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-webcam": "^7.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^5.0.4",
-    "typescript": "^5.9.3"
+    "typescript": "^5.8.3",
+    "vite": "^7.1.11"
   }
 }
